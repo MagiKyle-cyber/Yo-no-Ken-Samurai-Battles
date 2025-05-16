@@ -1,0 +1,20 @@
+/* Created by: Kyle Matthew Magnaye
+* Created on: May 2025
+* This file contains the CSS for index.html
+*/
+
+/* Applies styles to the html and body elements */
+html,
+body {
+  margin: 0;           /* Removes default margin */
+  padding: 0;          /* Removes default padding */
+  overflow: hidden;    /* Prevents scrollbars from appearing */
+  height: 100%;        /* Sets height to 100% of the viewport */
+}
+
+/* Styles the canvas element */
+canvas {
+  display: block;      /* Removes extra space below the canvas */
+  width: 100vw;        /* Makes canvas width fill the viewport */
+  height: 100vh;       /* Makes canvas height fill the viewport */
+}
